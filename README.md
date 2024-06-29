@@ -8,7 +8,6 @@ The Exchange Rates Application is a Java-based program designed to retrieve hist
 
 - **Load Exchange Rates**: Reads exchange rates from a CSV file.
 - **Query Exchange Rates**: Retrieves rates based on user-provided base currency, target currency, and date.
-- **Handle Edge Cases**: Manages scenarios such as weekends and invalid dates gracefully.
 - **Unit Tests**: Includes comprehensive tests to validate the application's core functionalities.
 
 ## Prerequisites
@@ -39,5 +38,4 @@ The `exchange_rates.csv` file should adhere to the following format:
 4. **View Results**:
     - The application will display the exchange rate for the specified inputs.
 
-This README file is structured in Markdown format to provide clear instructions for setting up and running the Exchange Rates Application, ensuring consistency and ease of use when viewed on Git platforms.
 
