@@ -1,8 +1,9 @@
-# Exchange Rates Application
+# Currency Exchange Application
 
 ## Overview
 
-The Exchange Rates Application is a Java-based program designed to retrieve historical exchange rates for various currency pairs. The application reads exchange rate data from a CSV file and allows users to query rates based on specified base currency, target currency, and date. Additionally, the application includes unit tests to ensure its functionality is robust and accurate.
+The Exchange Rates Application is a Java-based program. The application reads exchange rate data from a CSV file and allows users to query rates based on specified base currency, target currency, and date. 
+Additionally, the application includes unit tests to ensure its functionality is robust and accurate.
 
 ## Features
 
@@ -20,7 +21,7 @@ To run the Exchange Rates Application, ensure you have the following installed:
 
 ## CSV File Format
 
-The `exchange_rates.csv` file should adhere to the following format:
+A `exchange_rates.csv` is contained in the project with the following format:
 
 1. **Date**: Date in the format `dd-MM-yyyy`.
 2. **Base Currency**: The base currency code.
@@ -30,7 +31,7 @@ The `exchange_rates.csv` file should adhere to the following format:
 
 ## How to Run
 
-1. **Open the Project**: Import the project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
+1. **Open the Project**: Import the entire project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
 2. **Compile and Run**:
     - Compile and execute the `ExchangeRatesApplication` class.
 3. **Provide Input**:

@@ -11,8 +11,8 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-@SpringBootTest
-class ExchangeRatesApplicationTests {
+@SpringBootTest(classes = ExchangeRatesApplication.class)
+public class ExchangeRatesApplicationTests {
 
     @BeforeAll
     public static void setup() {
@@ -47,5 +47,4 @@ class ExchangeRatesApplicationTests {
         //the output rate should be the one on the 24th
         assertEquals(1.20, rate, 0.01);
     }
-
 }
